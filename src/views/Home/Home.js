@@ -12,7 +12,7 @@ import toast, {Toaster}from "react-hot-toast"
        const loadPlants = async()=>{
         toast.loading("Loading Plants...")
 
-        const response= await axios.get(`http://localhost:8000/plants`)
+        const response= await axios.get(`https://nursary-frontend.onrender.com`)
 
          toast.dismiss()
         toast.success("Plants Loaded Succesfully")
