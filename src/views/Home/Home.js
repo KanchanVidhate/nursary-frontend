@@ -3,7 +3,7 @@ import "./Home.css";
 import axios from 'axios';
 import Plantcard from './../../components/PlantCard/PlantCard.js'
 import { Link } from 'react-router-dom';
-import Imgadd from './add.jpeg'
+import Imgadd from './ADD.png'
 
 function Home() {
   const [plants, setPlants] = useState([])
@@ -12,7 +12,8 @@ function Home() {
   const loadPlants = async () => {
     const response = await axios.get(`${process.env.REACT_APP_API_URL}/plants`)
     setPlants(response.data.data) 
-  }
+  };
+  
 
 
   useEffect(() => {
