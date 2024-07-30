@@ -1,0 +1,60 @@
+
+
+
+.addplant-form{
+    border: 2px solid black;
+    
+    width: 300px;
+    height: 330px;
+    justify-content: center;
+    display: block;
+    border-radius: 5%;
+    margin: 50px;
+    background-color:#fff;
+    padding: 5px;
+
+   
+}
+
+.plant-input{
+    display: block;
+    margin: 15px;
+    width:250px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: large;
+
+}
+.plant-input:hover{
+border:2px solid rgb(97, 97, 229);
+
+}
+.form-btn{
+    /*border-radius: 10px;
+    background-color: rgb(118, 244, 139);
+    margin-top: 2px;
+    margin-left: 35px;
+    width: auto;
+    font-size: 20px;*/
+
+    margin-top: 2px;
+    margin-left: 40px;
+    width: auto;
+    font-size: 20px;
+    background-color: black;
+    color: #ffff;
+    border-radius:10px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.form-btn:hover{
+    border:3px solid rgb(97, 97, 229);
+}
+.img-pre{
+    height: 100px;
+    width:150px;
+    object-fit: contain;
+    margin-left: 20px;
+}
